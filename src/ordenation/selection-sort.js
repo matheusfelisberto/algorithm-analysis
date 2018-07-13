@@ -5,7 +5,7 @@
  * @param {Array} data 
  * @return {Array}
  */
-export const selectionSort = data => {
+module.exports = data => {
   let min;
 
   for (let i = 0; i < data.length - 1; i++) {
