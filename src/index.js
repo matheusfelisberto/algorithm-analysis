@@ -1,12 +1,6 @@
-import graph from './graph';
-import { stack, recursive } from './dfs';
-import sort from './insertion-sort';
+const { selection, bubble, insertion } = require('./ordenation')
 
-console.log('DFS - Recursive');
-recursive(graph, 0, item => console.log(item));
-
-console.log('DFS - Stack');
-stack(graph, 0, item => console.log(item));
-
-console.log('Insertion sort');
-console.log(sort([520, 450, 154, 310, 285, 379]));
+console.log(`Selection - ${selection([4, 9 ,3, 5, 2, 7, 1])}`);
+console.log(`Bubble - ${bubble.default([4, 9 ,3, 5, 2, 7, 1])}`);
+console.log(`Bubble improved - ${bubble.improved([4, 9 ,3, 5, 2, 7, 1])}`);
+console.log(`Insertion - ${insertion([4, 9 ,3, 5, 2, 7, 1])}`);
