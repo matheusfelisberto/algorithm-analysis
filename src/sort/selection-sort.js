@@ -1,7 +1,8 @@
 /**
- * Selection sort ordenation algoritm
+ * Selection sort algorithm
  * Time Complexity: O(n2) 
  * 
+ * @see https://www.geeksforgeeks.org/selection-sort/
  * @param {Array} data 
  * @return {Array}
  */

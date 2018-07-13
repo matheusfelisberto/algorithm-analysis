@@ -1,6 +1,8 @@
 /**
- * Bubble sort ordenation algoritm
+ * Bubble sort algorithm
+ * Time Complexity: O(n*n)
  *
+ * @see https://www.geeksforgeeks.org/bubble-sort/
  * @param {Array} data
  * @return {Array}
  */
@@ -17,8 +19,10 @@ const bubbleSort = data => {
 };
 
 /**
- * Bubble sort (improved) ordenation algoritm
+ * Bubble sort (improved) algorithm
+ * Time Complexity: O(n*n)
  *
+ * @see https://www.geeksforgeeks.org/bubble-sort/
  * @param {Array} data
  * @return {Array}
  */

@@ -1,5 +1,5 @@
 /**
- * Insertion sort ordenation algoritm
+ * Insertion sort algorithm
  * Time Complexity: O(n*n)
  * 
  * @see https://www.geeksforgeeks.org/insertion-sort/
