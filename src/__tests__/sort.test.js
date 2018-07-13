@@ -1,6 +1,6 @@
-const { selection, bubble, insertion } = require('../ordenation');
+const { selection, bubble, insertion } = require('../sort');
 
-describe('Ordenation', () => {
+describe('Sort', () => {
   test('Selection', () => {
     const data = [5, 2, 7, 5, 4, 9, 8];
     expect(selection(data)).toEqual(data.sort());
